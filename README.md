@@ -2,7 +2,7 @@
 - 👀 I’m interested in computers
 - 🌱 I’m currently learning application development
 - 📫 How to reach me  
-  - [Instagram](https://www.instagram.com/github.com.elyesc4/)
+  - [Instagram](https://www.instagram.com/u002fdevu002fnull/)
   - [Gmail](mailto:elyesbrinis@gmail.com)
 
 <!---
