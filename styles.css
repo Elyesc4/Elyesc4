@@ -20,7 +20,7 @@ body {
     background-image:
             linear-gradient(var(--line) 1px, transparent 1px),
             linear-gradient(90deg, var(--line) 1px, transparent 1px);
-    background-size: 48px 48px;
+    background-size: 32px 32px;
     background-position: center;
 }
 main {
@@ -75,4 +75,17 @@ footer {
     border-top: 1px solid var(--line);
     font-size: .8rem;
     color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
+.social { display: flex; gap: .9rem; }
+.social a {
+    color: var(--muted);
+    display: inline-flex;
+    transition: color .15s ease, transform .15s ease;
+}
+.social a:hover { color: var(--accent); transform: translateY(-2px); }
+.social a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.social svg { width: 20px; height: 20px; }
